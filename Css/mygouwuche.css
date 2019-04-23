@@ -1,0 +1,25 @@
+.container-inner .container-nav .mygouwuche{
+    color: #fff;
+    width: 250px;
+    /*background-color: #b38b47;*/
+    background-repeat: no-repeat;
+    background-image: url("../Images/bg_cart.png");
+    font-weight: normal;
+    height: 38px;
+    line-height: 38px;
+    background-color: #fff;
+    /*background-position: 0 -2px;*/
+    top: 5px;
+    text-indent: -9999em;
+    position: relative;
+}
+/*填写订单*/
+.container-top{
+    position: relative;
+}
+.container-inner .container-nav-bottom{
+    border-bottom: 2px solid #05984d;
+}
+.container-inner .container-top .steps{
+    float: right;
+}

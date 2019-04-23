@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*header开始*/
+.header{
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+.login-logo{
+    float: left;
+    margin-top: 25px;
+    margin-left: 15%;
+}
+.login-a{
+    font-size: 18px;
+    margin-left: 30px;
+    color: #6b6e75;
+    text-decoration: none;
+}
+.login-right{
+    float: right;
+    margin-right: 15%;
+    color: #8c9091;
+}
+.register-span{
+    line-height: 100px;
+}
+.register-btn{
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+    background-color: inherit;
+    color: #8c9091;
+}
+.register-btn:hover{
+    cursor: pointer;
+}
+/*header结束*/
+/*container开始*/
+.container{
+    width: 100%;
+    height: 500px;
+    background-color: #F5FBFD;
+    border-top: solid 2px #d8dad9;
+    border-bottom: solid 5px #d8dad9;
+}
+.container-img{
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.container-form{
+    width: 335px;
+    height: 350px;
+    background-color: #fff;
+    float: right;
+    margin-top:60px;
+    margin-right: 10%;
+    border: 1px solid #aeb0b1;
+}
+.container-form-title{
+    margin-top: 20px;
+    font-weight: bold;
+    margin-left: 17px;
+    color: #666;
+    margin-bottom: 40px;
+}
+.container-form-box{
+    width: 300px;
+    height: 40px;
+    border: solid 1px #b0b0b0;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+.container-form-box .icon-tubiao211,.icon-ai-password{
+    font-size: 25px;
+    color: #b0b0b0;
+    line-height: 40px;
+    margin-left: 10px;
+}
+.container-form-text{
+    height: 40px;
+    box-sizing: border-box;
+    width: 250px;
+    float: right;
+    border: 0px;
+    outline: none;
+}
+.container-loginbtn{
+    width: 302px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 35px;
+    color: #fff;
+    background-color: #ff679a;
+    border: 0;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.container-loginbtn:hover{
+    cursor: pointer;
+}
+.container-a{
+    text-decoration: none;
+    font-size: 12px;
+    float: right;
+    margin-right: 12px;
+    margin-top: 10px;
+    color: #6ab1c5;
+}
+/*container结束*/
+/*footer开始*/
+.footer{
+    width: 100%;
+}
+.footer-list{
+    width: 750px;
+    margin-left: 30%;
+    margin-top: 40px;
+}
+.footer-list li{
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+    color: #a1a1a1;
+    font-size: 13px;
+}
+.footer-list li a{
+    margin-right: 10px;
+    color: #a1a1a1;
+    text-decoration: none;
+}
+.footer-list li a span{
+    color: #ec7698;
+}
+.footer-p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+    color: #a1a1a1;
+}
+/*footer结束*/
